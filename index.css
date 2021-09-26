@@ -1,0 +1,83 @@
+.topbar{
+    height: 50px;
+    background-color: #075e54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.random{
+  color: white;
+  font-size: 1.5em;
+}
+body{
+    margin: 0px;
+    background-color: #ece5dd;
+   
+}
+.main{
+    
+    height:500px;
+    padding: 10px;
+   
+}
+.joined{
+    text-align: center;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+    min-height: 30px;
+    width: 30%;
+    font-size: 1.5em;
+    overflow: hidden;
+    clear: both;
+}
+.mymessage{
+    float: right;
+    border-radius: 20px;
+    min-height: 30px;
+    overflow: hidden;
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color:#dcf8c6;
+    clear: both;
+}
+.hismessage{
+    float: left;
+    border-radius: 20px;
+    min-height: 30px;
+    overflow: hidden;
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color:white;
+    clear: both;
+}
+.bottom{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+   
+    width: 100%;
+}
+.input{
+    margin: 5px;
+    width: 100%;
+    height: 35px;
+    border: none;
+}
+.button{
+    margin: 5px;
+    width: 20%;
+    height: 35px;
+    background-color: #075e54;
+    color: white;
+    border: none;
+}
+
+
